@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import logoSrc from '/ChatGPT Image Sep 16, 2025, 10_47_11 AM.png'; // if file is in public, use "/filename.png" or import
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,7 +21,7 @@ const Header = () => {
 {/* Logo */}
 <div className="flex items-center space-x-3">
   <img
-    src="public/ChatGPT Image Sep 16, 2025, 10_47_11 AM.png" // ✅ replace with your actual file path (public/logo.png is best)
+    src="logo.png" // ✅ replace with your actual file path (public/logo.png is best)
     className="h-12 w-12 rounded-lg object-contain" 
   />
   <span className="text-xl font-bold text-gray-900">
