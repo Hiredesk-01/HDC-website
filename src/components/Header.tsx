@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Menu, X, Zap } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import logoSrc from '/ChatGPT Image Sep 16, 2025, 10_47_11 AM.png'; // if file is in public, use "/filename.png" or import
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,10 +19,11 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-<div className="flex items-center space-x-2">
-  <img 
-    src="public/ChatGPT Image Sep 16, 2025, 10_47_11 AM.png" 
-    className="w-20 h-20 rounded-lg object-contain"
+{/* Logo */}
+<div className="flex items-center space-x-3">
+  <img
+    src="public/ChatGPT Image Sep 16, 2025, 10_47_11 AM.png" // ✅ replace with your actual file path (public/logo.png is best)
+    className="h-12 w-12 rounded-lg object-contain" 
   />
   <span className="text-xl font-bold text-gray-900">
     Azeeza Innovations
@@ -53,6 +55,7 @@ const Header = () => {
           <button
             className="md:hidden p-2"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Toggle menu"
           >
             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
