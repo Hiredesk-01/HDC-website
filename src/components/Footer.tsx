@@ -17,20 +17,20 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-lg flex items-center justify-center">
-                <Zap className="w-6 h-6 text-white" />
-              </div>
-              <span className="text-xl font-bold">Azeeza Innovations</span>
-            </div>
-            <p className="text-gray-400 mb-6 leading-relaxed">
-              Pioneering AI-driven SaaS solutions that transform operations across industries worldwide. 
-              Empowering businesses with intelligent platforms for sustainable growth.
-            </p>
-            
-            {/* Social Links */}
-           
-          </div>
+  <div className="flex items-center space-x-2 mb-4">
+    <img
+      src="/logo.png"   
+      alt="Azeeza Innovations logo"
+      className="w-10 h-10 rounded-lg object-contain"
+    />
+    <span className="text-xl font-bold">Azeeza Innovations</span>
+  </div>
+  
+  <p className="text-gray-400 mb-6 leading-relaxed">
+    Pioneering AI-driven SaaS solutions that transform operations across industries worldwide. 
+    Empowering businesses with intelligent platforms for sustainable growth.
+  </p>
+</div>
 
           {/* Footer Links */}
           {Object.entries(footerLinks).map(([category, links]) => (
