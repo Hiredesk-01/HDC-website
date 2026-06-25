@@ -19,8 +19,9 @@ const Hero = () => {
                 <br />with AI Innovation
               </h1>
               <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-                Pioneering AI-driven SaaS platforms that revolutionize equipment rental, fleet management, 
-                manpower hiring, and dashcam systems across global markets.
+                Pioneering AI-driven SaaS platforms that revolutionize equipment rental, fleet management,
+                manpower hiring, and dashcam systems across global markets. We also help corporate companies
+                with all their website needs — from design and development to ongoing support and optimization.
               </p>
             </div>
           </div>

@@ -21,7 +21,7 @@ const Header = () => {
 {/* Logo */}
 <div className="flex items-center space-x-3">
   <img
-    src="logo.png" // ✅ replace with your actual file path (public/logo.png is best)
+    src="logo.jpg" // ✅ replace with your actual file path (public/logo.png is best)
     className="h-12 w-12 rounded-lg object-contain" 
   />
   <span className="text-xl font-bold text-gray-900">
