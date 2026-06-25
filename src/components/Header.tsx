@@ -18,16 +18,16 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-{/* Logo */}
-<div className="flex items-center space-x-3">
-  <img
-    src="logo.jpg" // ✅ replace with your actual file path (public/logo.png is best)
-    className="h-12 w-12 rounded-lg object-contain" 
-  />
-  <span className="text-xl font-bold text-gray-900">
-    Azeeza Innovations
-  </span>
-</div>
+          <div className="flex items-center space-x-3">
+            <img
+              src="/logo.jpg"
+              alt="Azeeza Innovations logo"
+              className="h-12 w-12 rounded-lg object-contain"
+            />
+            <span className="text-xl font-bold text-gray-900">
+              Azeeza Innovations
+            </span>
+          </div>
 
 
           {/* Desktop Navigation */}
