@@ -3,8 +3,8 @@ import { ArrowRight, Bot, TrendingUp } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-16 min-h-screen bg-gradient-to-br from-blue-50 via-white to-cyan-50 flex items-center">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <section id="home" className="pt-16 min-h-screen bg-gradient-to-br from-blue-50 via-white to-cyan-50 flex items-center overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Content */}
           <div className="space-y-8">
@@ -13,7 +13,7 @@ const Hero = () => {
                 <Bot className="w-4 h-4" />
                 <span>AI-Powered SaaS Solutions</span>
               </div>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                 Transform Your
                 <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent"> Operations</span>
                 <br />with AI Innovation

@@ -26,7 +26,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-16 sm:py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Content */}
@@ -74,7 +74,7 @@ const About = () => {
         </div>
 
         {/* Vision Statement */}
-        <div className="mt-20 text-center">
+        <div className="mt-12 sm:mt-20 text-center">
           <div className="max-w-4xl mx-auto">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Our Vision</h3>
             <p className="text-lg text-gray-600 leading-relaxed">

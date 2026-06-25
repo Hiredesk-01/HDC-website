@@ -18,13 +18,13 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-2 sm:space-x-3 min-w-0">
             <img
               src="/logo.jpg"
               alt="Azeeza Innovations logo"
-              className="h-12 w-12 rounded-lg object-contain"
+              className="h-10 w-10 sm:h-12 sm:w-12 rounded-lg object-contain flex-shrink-0"
             />
-            <span className="text-xl font-bold text-gray-900">
+            <span className="text-base sm:text-xl font-bold text-gray-900 truncate">
               Azeeza Innovations
             </span>
           </div>
